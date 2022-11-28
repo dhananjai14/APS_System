@@ -6,3 +6,6 @@ sensor.egg-info/SOURCES.txt
 sensor.egg-info/dependency_links.txt
 sensor.egg-info/requires.txt
 sensor.egg-info/top_level.txt
+sensor/components/__init__.py
+sensor/entity/__init__.py
+sensor/pipeline/__init__.py
