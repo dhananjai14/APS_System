@@ -1,7 +1,7 @@
 import sys, os
 
 def error_message_detail(error, error_detail: sys):
-        _ , _ , exe_tb = error_detail.exc_info()
+        _ , _ , exc_tb = error_detail.exc_info()
 
         file_name = exc_tb.tb_frame.f_code.co_filename
         error_message = '''Error occured in python script name 
