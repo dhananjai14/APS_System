@@ -1,0 +1,9 @@
+[2022-12-05 12:07:21,306] 15 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2022-12-05 12:07:21,306] 22 root - INFO - Exporting collection data as pandas dataframe
+[2022-12-05 12:07:21,306] 20 root - INFO - Reading data from the database aps and collection is sensor
+[2022-12-05 12:07:21,309] 22 root - INFO - Found column: Index([], dtype='object')
+[2022-12-05 12:07:21,309] 26 root - INFO - Row and column in df: (0, 0)
+[2022-12-05 12:07:21,309] 28 root - INFO - Save data in feature store
+[2022-12-05 12:07:21,309] 34 root - INFO - Create feature store folder if not available
+[2022-12-05 12:07:21,309] 38 root - INFO - Save df to feature store folder
+[2022-12-05 12:07:21,311] 43 root - INFO - split dataset into train and test set

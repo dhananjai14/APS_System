@@ -1,0 +1,21 @@
+[2022-12-05 12:30:33,948] 15 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2022-12-05 12:30:33,949] 22 root - INFO - Exporting collection data as pandas dataframe
+[2022-12-05 12:30:33,949] 20 root - INFO - Reading data from the database aps and collection is sensor
+[2022-12-05 12:30:37,243] 22 root - INFO - Found column: Index(['_id', 'class', 'aa_000', 'ab_000', 'ac_000', 'ad_000', 'ae_000',
+       'af_000', 'ag_000', 'ag_001',
+       ...
+       'ee_002', 'ee_003', 'ee_004', 'ee_005', 'ee_006', 'ee_007', 'ee_008',
+       'ee_009', 'ef_000', 'eg_000'],
+      dtype='object', length=172)
+[2022-12-05 12:30:37,243] 24 root - INFO - Droppig the column: _id
+[2022-12-05 12:30:37,440] 26 root - INFO - Row and column in df: (36188, 171)
+[2022-12-05 12:30:37,440] 28 root - INFO - Save data in feature store
+[2022-12-05 12:30:37,963] 34 root - INFO - Create feature store folder if not available
+[2022-12-05 12:30:37,963] 38 root - INFO - Save df to feature store folder
+[2022-12-05 12:30:40,349] 43 root - INFO - split dataset into train and test set
+[2022-12-05 12:30:40,885] 47 root - INFO - create dataset directory folder if not available
+[2022-12-05 12:30:40,885] 52 root - INFO - Save df to feature store folder
+[2022-12-05 12:30:43,043] 64 root - INFO - Data ingestion artifact: DataIngestionArtifact(feature_store_file_path='/config/workspace/artifact/12-05-2022__12:30:33/data_ingestion/feature_store/sensor.csv', train_file_path='/config/workspace/artifact/12-05-2022__12:30:33/data_ingestion/dataset/train.csv', test_file_path='/config/workspace/artifact/12-05-2022__12:30:33/data_ingestion/dataset/test.csv')
+[2022-12-05 12:30:43,472] 17 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Validation <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2022-12-05 12:30:46,389] 38 root - INFO - electing the columns name with null value more than threshold
+[2022-12-05 12:30:47,284] 44 root - INFO - Dropped columns <built-in method index of list object at 0x7f9bc55b9cc0>
